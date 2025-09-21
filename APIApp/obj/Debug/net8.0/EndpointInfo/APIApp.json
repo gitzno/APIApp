@@ -1,0 +1,2297 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "APIApp",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/CauHois": {
+      "get": {
+        "tags": [
+          "CauHois"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CauHoi"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CauHoi"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CauHoi"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "CauHois"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CauHoi"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CauHoi"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CauHoi"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/CauHoi"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CauHoi"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CauHoi"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/CauHois/{id}": {
+      "get": {
+        "tags": [
+          "CauHois"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/CauHoi"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CauHoi"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CauHoi"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "CauHois"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CauHoi"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CauHoi"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CauHoi"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "CauHois"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/CauTraLois": {
+      "get": {
+        "tags": [
+          "CauTraLois"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CauTraLoi"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CauTraLoi"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CauTraLoi"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "CauTraLois"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CauTraLoi"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CauTraLoi"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CauTraLoi"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/CauTraLoi"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CauTraLoi"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CauTraLoi"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/CauTraLois/{id}": {
+      "get": {
+        "tags": [
+          "CauTraLois"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/CauTraLoi"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CauTraLoi"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CauTraLoi"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "CauTraLois"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CauTraLoi"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CauTraLoi"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CauTraLoi"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "CauTraLois"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/DanhGiums": {
+      "get": {
+        "tags": [
+          "DanhGiums"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/DanhGium"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/DanhGium"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/DanhGium"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "DanhGiums"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DanhGium"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DanhGium"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/DanhGium"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/DanhGium"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/DanhGium"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/DanhGium"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/DanhGiums/{id}": {
+      "get": {
+        "tags": [
+          "DanhGiums"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/DanhGium"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/DanhGium"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/DanhGium"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "DanhGiums"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DanhGium"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DanhGium"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/DanhGium"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "DanhGiums"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/DaoTaoNganhNghes": {
+      "get": {
+        "tags": [
+          "DaoTaoNganhNghes"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/DaoTaoNganhNghe"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/DaoTaoNganhNghe"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/DaoTaoNganhNghe"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "DaoTaoNganhNghes"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DaoTaoNganhNghe"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DaoTaoNganhNghe"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/DaoTaoNganhNghe"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/DaoTaoNganhNghe"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/DaoTaoNganhNghe"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/DaoTaoNganhNghe"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/DaoTaoNganhNghes/{id}": {
+      "get": {
+        "tags": [
+          "DaoTaoNganhNghes"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/DaoTaoNganhNghe"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/DaoTaoNganhNghe"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/DaoTaoNganhNghe"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "DaoTaoNganhNghes"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DaoTaoNganhNghe"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DaoTaoNganhNghe"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/DaoTaoNganhNghe"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "DaoTaoNganhNghes"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/KetQuaChiTiets": {
+      "get": {
+        "tags": [
+          "KetQuaChiTiets"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/KetQuaChiTiet"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/KetQuaChiTiet"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/KetQuaChiTiet"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "KetQuaChiTiets"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/KetQuaChiTiet"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/KetQuaChiTiet"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/KetQuaChiTiet"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/KetQuaChiTiet"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/KetQuaChiTiet"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/KetQuaChiTiet"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/KetQuaChiTiets/{id}": {
+      "get": {
+        "tags": [
+          "KetQuaChiTiets"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/KetQuaChiTiet"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/KetQuaChiTiet"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/KetQuaChiTiet"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "KetQuaChiTiets"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/KetQuaChiTiet"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/KetQuaChiTiet"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/KetQuaChiTiet"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "KetQuaChiTiets"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/KyNangCaNhans": {
+      "get": {
+        "tags": [
+          "KyNangCaNhans"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/KyNangCaNhan"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/KyNangCaNhan"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/KyNangCaNhan"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "KyNangCaNhans"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/KyNangCaNhan"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/KyNangCaNhan"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/KyNangCaNhan"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/KyNangCaNhan"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/KyNangCaNhan"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/KyNangCaNhan"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/KyNangCaNhans/{id}": {
+      "get": {
+        "tags": [
+          "KyNangCaNhans"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/KyNangCaNhan"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/KyNangCaNhan"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/KyNangCaNhan"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "KyNangCaNhans"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/KyNangCaNhan"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/KyNangCaNhan"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/KyNangCaNhan"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "KyNangCaNhans"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/KyNangs": {
+      "get": {
+        "tags": [
+          "KyNangs"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/KyNang"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/KyNang"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/KyNang"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "KyNangs"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/KyNang"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/KyNang"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/KyNang"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/KyNang"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/KyNang"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/KyNang"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/KyNangs/{id}": {
+      "get": {
+        "tags": [
+          "KyNangs"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/KyNang"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/KyNang"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/KyNang"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "KyNangs"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/KyNang"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/KyNang"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/KyNang"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "KyNangs"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/LichSuTests": {
+      "get": {
+        "tags": [
+          "LichSuTests"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/LichSuTest"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/LichSuTest"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/LichSuTest"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "LichSuTests"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LichSuTest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LichSuTest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/LichSuTest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/LichSuTest"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/LichSuTest"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/LichSuTest"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/LichSuTests/{id}": {
+      "get": {
+        "tags": [
+          "LichSuTests"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/LichSuTest"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/LichSuTest"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/LichSuTest"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "LichSuTests"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LichSuTest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LichSuTest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/LichSuTest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "LichSuTests"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/MucLuongs": {
+      "get": {
+        "tags": [
+          "MucLuongs"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/MucLuong"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/MucLuong"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/MucLuong"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "MucLuongs"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MucLuong"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MucLuong"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MucLuong"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/MucLuong"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/MucLuong"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/MucLuong"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/MucLuongs/{id}": {
+      "get": {
+        "tags": [
+          "MucLuongs"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/MucLuong"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/MucLuong"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/MucLuong"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "MucLuongs"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MucLuong"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MucLuong"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MucLuong"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "MucLuongs"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/NganhNghes": {
+      "get": {
+        "tags": [
+          "NganhNghes"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/NganhNghe"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/NganhNghe"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/NganhNghe"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "NganhNghes"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/NganhNghe"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/NganhNghe"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/NganhNghe"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/NganhNghe"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/NganhNghe"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/NganhNghe"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/NganhNghes/{id}": {
+      "get": {
+        "tags": [
+          "NganhNghes"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/NganhNghe"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/NganhNghe"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/NganhNghe"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "NganhNghes"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/NganhNghe"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/NganhNghe"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/NganhNghe"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "NganhNghes"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "CauHoi": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "noiDung": {
+            "type": "string",
+            "nullable": true
+          },
+          "loaiCauHoi": {
+            "type": "string",
+            "nullable": true
+          },
+          "thuTu": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "trangThai": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "cauTraLois": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/CauTraLoi"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "CauTraLoi": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "cauHoiId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "noiDung": {
+            "type": "string",
+            "nullable": true
+          },
+          "diemSo": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "cauHoi": {
+            "$ref": "#/components/schemas/CauHoi"
+          }
+        },
+        "additionalProperties": false
+      },
+      "DanhGium": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "nguoiDungId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "diemSo": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "noiDungDanhGia": {
+            "type": "string",
+            "nullable": true
+          },
+          "ngayDanhGia": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "nguoiDung": {
+            "$ref": "#/components/schemas/NguoiDung"
+          }
+        },
+        "additionalProperties": false
+      },
+      "DaoTaoNganhNghe": {
+        "type": "object",
+        "properties": {
+          "nganhNgheId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "thoiGianHoc": {
+            "type": "string",
+            "nullable": true
+          },
+          "chiPhi": {
+            "type": "string",
+            "nullable": true
+          },
+          "hocOnline": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "nganhNghe": {
+            "$ref": "#/components/schemas/NganhNghe"
+          }
+        },
+        "additionalProperties": false
+      },
+      "KetQuaChiTiet": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "lichSuTestId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "nganhNgheId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "phanTramPhuHop": {
+            "type": "number",
+            "format": "double"
+          },
+          "lichSuTest": {
+            "$ref": "#/components/schemas/LichSuTest"
+          },
+          "nganhNghe": {
+            "$ref": "#/components/schemas/NganhNghe"
+          }
+        },
+        "additionalProperties": false
+      },
+      "KyNang": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "tenKyNang": {
+            "type": "string",
+            "nullable": true
+          },
+          "moTa": {
+            "type": "string",
+            "nullable": true
+          },
+          "kyNangCaNhans": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/KyNangCaNhan"
+            },
+            "nullable": true
+          },
+          "yeuCauKyNangs": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/YeuCauKyNang"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "KyNangCaNhan": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "lichSuTestId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "kyNangId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "diemSo": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "kyNang": {
+            "$ref": "#/components/schemas/KyNang"
+          },
+          "lichSuTest": {
+            "$ref": "#/components/schemas/LichSuTest"
+          }
+        },
+        "additionalProperties": false
+      },
+      "LichSuTest": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "nguoiDungId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "ngayLamTest": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "ketQuaChiTiets": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/KetQuaChiTiet"
+            },
+            "nullable": true
+          },
+          "kyNangCaNhans": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/KyNangCaNhan"
+            },
+            "nullable": true
+          },
+          "nguoiDung": {
+            "$ref": "#/components/schemas/NguoiDung"
+          }
+        },
+        "additionalProperties": false
+      },
+      "MucLuong": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "nganhNgheId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "kinhNghiem": {
+            "type": "string",
+            "nullable": true
+          },
+          "mucLuongMin": {
+            "type": "number",
+            "format": "double"
+          },
+          "mucLuongMax": {
+            "type": "number",
+            "format": "double"
+          },
+          "donViTienTe": {
+            "type": "string",
+            "nullable": true
+          },
+          "moTa": {
+            "type": "string",
+            "nullable": true
+          },
+          "nganhNghe": {
+            "$ref": "#/components/schemas/NganhNghe"
+          }
+        },
+        "additionalProperties": false
+      },
+      "NganhNghe": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "tenNganhNghe": {
+            "type": "string",
+            "nullable": true
+          },
+          "moTa": {
+            "type": "string",
+            "nullable": true
+          },
+          "anhMinhHoa": {
+            "type": "string",
+            "nullable": true
+          },
+          "mucDoHot": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "iconCss": {
+            "type": "string",
+            "nullable": true
+          },
+          "daoTaoNganhNghe": {
+            "$ref": "#/components/schemas/DaoTaoNganhNghe"
+          },
+          "ketQuaChiTiets": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/KetQuaChiTiet"
+            },
+            "nullable": true
+          },
+          "mucLuongs": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/MucLuong"
+            },
+            "nullable": true
+          },
+          "thiTruongViecLam": {
+            "$ref": "#/components/schemas/ThiTruongViecLam"
+          },
+          "yeuCauKyNangs": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/YeuCauKyNang"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "NguoiDung": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "matKhau": {
+            "type": "string",
+            "nullable": true
+          },
+          "ho": {
+            "type": "string",
+            "nullable": true
+          },
+          "ten": {
+            "type": "string",
+            "nullable": true
+          },
+          "anhDaiDien": {
+            "type": "string",
+            "nullable": true
+          },
+          "ngayTao": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "laAdmin": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "danhGia": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/DanhGium"
+            },
+            "nullable": true
+          },
+          "lichSuTests": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/LichSuTest"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ThiTruongViecLam": {
+        "type": "object",
+        "properties": {
+          "nganhNgheId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "nhuCauTuyenDung": {
+            "type": "string",
+            "nullable": true
+          },
+          "canhTranh": {
+            "type": "string",
+            "nullable": true
+          },
+          "xuHuong": {
+            "type": "string",
+            "nullable": true
+          },
+          "nganhNghe": {
+            "$ref": "#/components/schemas/NganhNghe"
+          }
+        },
+        "additionalProperties": false
+      },
+      "YeuCauKyNang": {
+        "type": "object",
+        "properties": {
+          "nganhNgheId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "kyNangId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "mucDoQuanTrong": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "kyNang": {
+            "$ref": "#/components/schemas/KyNang"
+          },
+          "nganhNghe": {
+            "$ref": "#/components/schemas/NganhNghe"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

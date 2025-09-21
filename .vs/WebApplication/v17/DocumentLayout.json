@@ -1,0 +1,392 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "G:\\Workspace\\WebApplication\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9149AA49-81AA-443D-B493-0B0094E30EDF}|APIApp\\APIApp.csproj|g:\\workspace\\webapplication\\apiapp\\controllers\\nguoidungscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9149AA49-81AA-443D-B493-0B0094E30EDF}|APIApp\\APIApp.csproj|solutionrelative:apiapp\\controllers\\nguoidungscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9149AA49-81AA-443D-B493-0B0094E30EDF}|APIApp\\APIApp.csproj|g:\\workspace\\webapplication\\apiapp\\controllers\\nganhnghescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9149AA49-81AA-443D-B493-0B0094E30EDF}|APIApp\\APIApp.csproj|solutionrelative:apiapp\\controllers\\nganhnghescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9149AA49-81AA-443D-B493-0B0094E30EDF}|APIApp\\APIApp.csproj|g:\\workspace\\webapplication\\apiapp\\controllers\\mucluongscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9149AA49-81AA-443D-B493-0B0094E30EDF}|APIApp\\APIApp.csproj|solutionrelative:apiapp\\controllers\\mucluongscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9149AA49-81AA-443D-B493-0B0094E30EDF}|APIApp\\APIApp.csproj|g:\\workspace\\webapplication\\apiapp\\controllers\\lichsutestscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9149AA49-81AA-443D-B493-0B0094E30EDF}|APIApp\\APIApp.csproj|solutionrelative:apiapp\\controllers\\lichsutestscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9149AA49-81AA-443D-B493-0B0094E30EDF}|APIApp\\APIApp.csproj|g:\\workspace\\webapplication\\apiapp\\controllers\\kynangcanhanscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9149AA49-81AA-443D-B493-0B0094E30EDF}|APIApp\\APIApp.csproj|solutionrelative:apiapp\\controllers\\kynangcanhanscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9149AA49-81AA-443D-B493-0B0094E30EDF}|APIApp\\APIApp.csproj|g:\\workspace\\webapplication\\apiapp\\controllers\\kynangscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9149AA49-81AA-443D-B493-0B0094E30EDF}|APIApp\\APIApp.csproj|solutionrelative:apiapp\\controllers\\kynangscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9149AA49-81AA-443D-B493-0B0094E30EDF}|APIApp\\APIApp.csproj|g:\\workspace\\webapplication\\apiapp\\controllers\\ketquachitietscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9149AA49-81AA-443D-B493-0B0094E30EDF}|APIApp\\APIApp.csproj|solutionrelative:apiapp\\controllers\\ketquachitietscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9149AA49-81AA-443D-B493-0B0094E30EDF}|APIApp\\APIApp.csproj|g:\\workspace\\webapplication\\apiapp\\controllers\\daotaonganhnghescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9149AA49-81AA-443D-B493-0B0094E30EDF}|APIApp\\APIApp.csproj|solutionrelative:apiapp\\controllers\\daotaonganhnghescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9149AA49-81AA-443D-B493-0B0094E30EDF}|APIApp\\APIApp.csproj|g:\\workspace\\webapplication\\apiapp\\controllers\\danhgiumscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9149AA49-81AA-443D-B493-0B0094E30EDF}|APIApp\\APIApp.csproj|solutionrelative:apiapp\\controllers\\danhgiumscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9149AA49-81AA-443D-B493-0B0094E30EDF}|APIApp\\APIApp.csproj|g:\\workspace\\webapplication\\apiapp\\controllers\\cautraloiscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9149AA49-81AA-443D-B493-0B0094E30EDF}|APIApp\\APIApp.csproj|solutionrelative:apiapp\\controllers\\cautraloiscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9149AA49-81AA-443D-B493-0B0094E30EDF}|APIApp\\APIApp.csproj|g:\\workspace\\webapplication\\apiapp\\controllers\\cauhoiscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9149AA49-81AA-443D-B493-0B0094E30EDF}|APIApp\\APIApp.csproj|solutionrelative:apiapp\\controllers\\cauhoiscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\Workspace\\WebApplication\\APIApp\\Models\\CareerQuizDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:APIApp\\Models\\CareerQuizDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 42,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2090367263:0:{81164725-9a96-4ece-a4cb-440d8fd285e5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:323948898:0:{81164725-9a96-4ece-a4cb-440d8fd285e5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:138:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:139:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:141:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:140:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:144:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:145:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:146:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:143:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:141:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:142:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:143:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:144:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:145:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:146:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:150:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:150:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:152:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:149:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:151:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:148:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:139:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:138:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NguoiDungsController.cs",
+              "DocumentMoniker": "G:\\Workspace\\WebApplication\\APIApp\\Controllers\\NguoiDungsController.cs",
+              "RelativeDocumentMoniker": "APIApp\\Controllers\\NguoiDungsController.cs",
+              "ToolTip": "G:\\Workspace\\WebApplication\\APIApp\\Controllers\\NguoiDungsController.cs",
+              "RelativeToolTip": "APIApp\\Controllers\\NguoiDungsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T11:43:00.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NganhNghesController.cs",
+              "DocumentMoniker": "G:\\Workspace\\WebApplication\\APIApp\\Controllers\\NganhNghesController.cs",
+              "RelativeDocumentMoniker": "APIApp\\Controllers\\NganhNghesController.cs",
+              "ToolTip": "G:\\Workspace\\WebApplication\\APIApp\\Controllers\\NganhNghesController.cs",
+              "RelativeToolTip": "APIApp\\Controllers\\NganhNghesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T11:41:33.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MucLuongsController.cs",
+              "DocumentMoniker": "G:\\Workspace\\WebApplication\\APIApp\\Controllers\\MucLuongsController.cs",
+              "RelativeDocumentMoniker": "APIApp\\Controllers\\MucLuongsController.cs",
+              "ToolTip": "G:\\Workspace\\WebApplication\\APIApp\\Controllers\\MucLuongsController.cs",
+              "RelativeToolTip": "APIApp\\Controllers\\MucLuongsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T11:40:46.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LichSuTestsController.cs",
+              "DocumentMoniker": "G:\\Workspace\\WebApplication\\APIApp\\Controllers\\LichSuTestsController.cs",
+              "RelativeDocumentMoniker": "APIApp\\Controllers\\LichSuTestsController.cs",
+              "ToolTip": "G:\\Workspace\\WebApplication\\APIApp\\Controllers\\LichSuTestsController.cs",
+              "RelativeToolTip": "APIApp\\Controllers\\LichSuTestsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T11:39:40.394Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "KyNangCaNhansController.cs",
+              "DocumentMoniker": "G:\\Workspace\\WebApplication\\APIApp\\Controllers\\KyNangCaNhansController.cs",
+              "RelativeDocumentMoniker": "APIApp\\Controllers\\KyNangCaNhansController.cs",
+              "ToolTip": "G:\\Workspace\\WebApplication\\APIApp\\Controllers\\KyNangCaNhansController.cs",
+              "RelativeToolTip": "APIApp\\Controllers\\KyNangCaNhansController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T11:39:03.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "KyNangsController.cs",
+              "DocumentMoniker": "G:\\Workspace\\WebApplication\\APIApp\\Controllers\\KyNangsController.cs",
+              "RelativeDocumentMoniker": "APIApp\\Controllers\\KyNangsController.cs",
+              "ToolTip": "G:\\Workspace\\WebApplication\\APIApp\\Controllers\\KyNangsController.cs",
+              "RelativeToolTip": "APIApp\\Controllers\\KyNangsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T11:38:33.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "KetQuaChiTietsController.cs",
+              "DocumentMoniker": "G:\\Workspace\\WebApplication\\APIApp\\Controllers\\KetQuaChiTietsController.cs",
+              "RelativeDocumentMoniker": "APIApp\\Controllers\\KetQuaChiTietsController.cs",
+              "ToolTip": "G:\\Workspace\\WebApplication\\APIApp\\Controllers\\KetQuaChiTietsController.cs",
+              "RelativeToolTip": "APIApp\\Controllers\\KetQuaChiTietsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T11:38:05.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DaoTaoNganhNghesController.cs",
+              "DocumentMoniker": "G:\\Workspace\\WebApplication\\APIApp\\Controllers\\DaoTaoNganhNghesController.cs",
+              "RelativeDocumentMoniker": "APIApp\\Controllers\\DaoTaoNganhNghesController.cs",
+              "ToolTip": "G:\\Workspace\\WebApplication\\APIApp\\Controllers\\DaoTaoNganhNghesController.cs",
+              "RelativeToolTip": "APIApp\\Controllers\\DaoTaoNganhNghesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T11:37:23.218Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DanhGiumsController.cs",
+              "DocumentMoniker": "G:\\Workspace\\WebApplication\\APIApp\\Controllers\\DanhGiumsController.cs",
+              "RelativeDocumentMoniker": "APIApp\\Controllers\\DanhGiumsController.cs",
+              "ToolTip": "G:\\Workspace\\WebApplication\\APIApp\\Controllers\\DanhGiumsController.cs",
+              "RelativeToolTip": "APIApp\\Controllers\\DanhGiumsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T11:36:49.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CauTraLoisController.cs",
+              "DocumentMoniker": "G:\\Workspace\\WebApplication\\APIApp\\Controllers\\CauTraLoisController.cs",
+              "RelativeDocumentMoniker": "APIApp\\Controllers\\CauTraLoisController.cs",
+              "ToolTip": "G:\\Workspace\\WebApplication\\APIApp\\Controllers\\CauTraLoisController.cs",
+              "RelativeToolTip": "APIApp\\Controllers\\CauTraLoisController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T11:36:01.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CauHoisController.cs",
+              "DocumentMoniker": "G:\\Workspace\\WebApplication\\APIApp\\Controllers\\CauHoisController.cs",
+              "RelativeDocumentMoniker": "APIApp\\Controllers\\CauHoisController.cs",
+              "ToolTip": "G:\\Workspace\\WebApplication\\APIApp\\Controllers\\CauHoisController.cs",
+              "RelativeToolTip": "APIApp\\Controllers\\CauHoisController.cs",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T11:35:17.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CareerQuizDbContext.cs",
+              "DocumentMoniker": "G:\\Workspace\\WebApplication\\APIApp\\Models\\CareerQuizDbContext.cs",
+              "RelativeDocumentMoniker": "APIApp\\Models\\CareerQuizDbContext.cs",
+              "ToolTip": "G:\\Workspace\\WebApplication\\APIApp\\Models\\CareerQuizDbContext.cs",
+              "RelativeToolTip": "APIApp\\Models\\CareerQuizDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T11:31:36.62Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
