@@ -287,3 +287,4 @@ G:\Workspace\WebApplication\APIApp\bin\Debug\net8.0\runtimes\win\lib\net7.0\Micr
 G:\Workspace\WebApplication\APIApp\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
 G:\Workspace\WebApplication\APIApp\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 G:\Workspace\WebApplication\APIApp\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+G:\Workspace\WebApplication\APIApp\obj\Debug\net8.0\APIApp.sourcelink.json
